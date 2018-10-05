@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nav>
+	<pane title="Academics">
+		<tab title="Future Students">
+			<section title="Undergraduate">
+				<link url="/nursing/academics/bsn/louisville">BSN Program - Louisville</link>
+				<link url="/nursing/academics/bsn/owensboro">BSN Program - Owensboro</link>
+				<link url="/nursing/academics/rn-bsn">RN-BSN Online Program</link>
+			</section>
+			<section title="Graduate">
+				<link url="/nursing/academics/phd">PhD in Nursing Program</link>
+				<link url="/nursing/academics/dnp">DNP Program</link>
+				<link url="/nursing/academics/msn">MSN, Certificate in Health Professions Education</link>
+			</section>
+			<section title="Second Degree" break="true">
+				<link url="/nursing/academics/mepn-program/mepn">MEPN Program</link>
+			</section>
+			<section title="Financial" break="true">
+				<link url="/finance/bursar">Tuition and Fees</link>
+				<link url="/nursing/financial-aid">Financial Aid and Scholarships</link>
+				<link url="/nursing/financial-aid">Assistantships</link>
+			</section>
+			<section title="Student Advising">
+				<link url="/nursing/student-services/">Office of Student Services</link>
+			</section>
+			<section title="Technology">
+				<link url="/nursing/current-students/technology-for-new-current-nursing-students">Laptop requirement</link>
+			</section>			
+		</tab>
+		<tab title="Current Students">
+			<link url="/nursing/current-students">Current Students Information</link>
+			<section title="Student Affairs">
+				<link url="/nursing/current-students/advising">Advising</link>
+				<link url="/medicine/studentaffairs/student-services/hsc-counseling-services">Counseling Services</link>
+				<link url="/nursing/early/guaranteed-early-admission">Guaranteed Early Admission</link>
+				<link url="/nursing/files/owensboro-bsn-program">Owensboro Extension New Student Guide</link>
+			</section>
+			<section title="Tuition and Fees">
+				<link url="/finance/bursar">Bursar's Office</link>
+			</section>	
+			<section title="Financial Aid">
+				<link url="/nursing/financial-aid">Financial Aid and Scholarships</link>
+				<link url="/nursing/financial-aid">Assistantships</link>
+			</section>
+			<section title="Admissions" break="true">
+				<link url="/nursing/academics/bsn/application-procedures-bsn-onbase">Undergrad BSN Program Upper Division</link>
+			</section>
+			<section title="Technology">
+				<link url="/nursing/current-students/technology-for-new-current-nursing-students">Laptop requirement</link>
+			</section>
+			<section title="CNA">
+				<link url="/nursing/academics/cna">CNA for Clinical Compliance</link>
+			</section>
+			<section title="Simulation" break="true">
+				<link url="/nursing/learning-resource-and-simulation-center">Learning Resource and Simulation Center</link>
+			</section>	
+			<section title="Commencement and Graduation">
+				<link url="/registrar/commencement-information.html">Registrar’s Office</link>
+			</section>
+		</tab>
+		<tab title="Programs &amp; Degrees">
+			<link url="/nursing/academics">Program &amp; Degree Curriculums</link>
+			<section>
+				<link url="/nursing/academics/bsn/louisville">BSN - Louisville</link>
+				<link url="/nursing/academics/bsn/owensboro">BSN - Owensboro</link>
+				<link url="/nursing/academics/rn-bsn/rn-bsn-program">RN-BSN Program</link>
+				<link url="/nursing/academics/msn">MSN, Certificate in Health Professions Education</link>
+				</section>
+			<section>
+				<link url="/nursing/academics/mepn-program/mepn">MEPN - second degree program</link>
+				<link url="/nursing/academics/phd">PhD in Nursing Program</link>
+				<link url="/nursing/academics/dnp-program/dnp">DNP Program</link>
+				</section>
+		</tab>
+		<tab title="Faculty &amp; Staff">
+			<link url="/nursing/faculty-staff">Faculty &amp; Staff Information</link>
+			<section>
+				<link url="/calendars/academic">Academic Calendar</link>
+				<link url="/medicine/cme">Continuing Education Programs</link>
+				<link url="/nursing/employment">Employment</link>
+				<link url="/nursing/directory/all-faculty-staff">Faculty &amp; Staff Directory</link>
+				<link url="/hr/">Human Resources</link>
+			</section>
+			<section>
+				<link url="/about/louisville/">Learn more about Living in Louisville</link>
+				<link url="/nursing/news">School of Nursing News</link>
+				<link url="/nursing/faculty-staff/sigma-theta-tau">Sigma Theta Tau Intl</link>
+				<link url="http://louisville.bncollege.com">UofL Bookstore</link>
+			</section>
+		</tab>
+		<tab title="Alumni &amp; Visitors">
+			<link url="/nursing/alumni">Alumni &amp; Visitors Information</link>
+			<section>
+				<link url="http://www.uoflalumni.org/">University of Louisville Alumni Association</link>
+			</section>
+			<section>
+				<link url="mailto:alumni@louisville.edu">SON Email</link>
+			    <link url="/nursing/giving">Giving to the SON</link>
+			</section>
+		</tab>
+	</pane>
+	<pane title="Research">
+		<link url="/nursing/research/message-from-dr-lynne-hall">Office of Nursing Research</link>
+		<section>
+			<link url="/nursing/directory/research-faculty">Research Faculty Directory</link>
+			<link url="/nursing/research/research-faculty-interests">Faculty Research Interests</link>
+			<link url="/nursing/research/funded-research">Funded Research</link>
+			<link url="/nursing/research/publications">Publications</link>
+		</section>
+		<section>
+			<link url="/nursing/research/research-services">Office of Research Services</link>
+			<link url="/nursing/research/services/research-services-staff">Research Services Staff</link>
+			<link url="/nursing/research/services/research-opportunties">Research Opportunities</link>
+			<link url="/nursing/research/upcoming-events">Upcoming Events</link>
+			<link url="/nursing/research/study-recruitment">Study Recruitment</link>
+		</section>
+	</pane>
+	<pane title="Patient Care">
+		<section>
+			<link url="/nursing/programs-centers/kentucky-racing-health-services-center">Kentucky Racing Health Services Center</link>
+			<link url="http://louisville.edu/dentistry/carepartners">UofL Care Partners</link>
+			<link url="/nursing/current-students/professional-links">Professional Resources</link>
+			<link url="/nursing/career-connection">Career Connection</link>
+		</section>
+	</pane>
+	<pane title="Outreach">
+		<link url="/nursing/outreach">Community Outreach Information</link>
+		<section>
+			<link url="/nursing/programs-centers/office-of-disparities-and-community-engagement">Office of Disparities and Community Engagement</link>
+			<link url="/nursing/programs-centers/support/support-education-program-for-caregivers">Caregivers Online Education Support</link>
+			<link url="/nursing/programs-centers/volunteer-caregivers-program">Caregivers Program</link>
+		</section>
+		<section>
+			<link url="/nursing/colorofhealth">Color of Health</link>
+			<link url="/nursing/current-students/international-learning-opportunities-for-nursing-majors ">International Learning for Nursing Students</link>
+			<link url="/hsc/diversity">Office of Diversity and Inclusion</link>
+		</section>
+	</pane>
+	<link url="/nursing/giving">Giving</link>
+</nav>
