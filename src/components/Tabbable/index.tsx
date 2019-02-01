@@ -1,32 +1,27 @@
-import { h, Component, ComponentProps } from "preact";
-export interface TabbableProps extends ComponentProps<any> {
-	title: string;
-}
-interface TabbableState {
-}
-export class Tabbable extends Component<TabbableProps, TabbableState> {
-	constructor(props) {
-		super(props);
-		this.state = {};
-	}
-	componentDidMount() {
-		setTimeout(() => {
-		}, 2000);
-	}
-	render({title, children}: TabbableProps, state: TabbableState) {
-		const id = title.replace(/\W+/, '');
-		return (
-			<div class="tabbable tabs-left">
-				<ul class="nav nav-tabs hidden-phone">
-					Tab names
-				</ul>
-				<div class="tab-content">
-					<div class="med-nav-pane-collapse visible-phone">
+import { h, Component } from "preact";
+import Tab from "../Tab";
+import TabTitle from "../TabTitle";
 
-					</div>
-					MobileTabs
-				</div>
-			</div>
-		);
+export interface Props {
+	tabs: Element[];
+}
+
+export default function Tabs({ tabs }: Props) {
+	const tabElms = [];
+	const tabHeaders = [];
+	for (let i = 0; i < tabs.length; i++) {
+		const tab = tabs[i];
+		const isActive = 0 === i;
+		tabElms[i] = <Tab title={tab.getAttribute('title')} isActive={isActive} children={Array.from(tab.children)}></Tab>
+		tabHeaders[i] = <TabTitle title={tab.getAttribute('title')}  isActive={isActive}/>
 	}
+	return (
+		<div class="tabbable tabs-left">
+			<ul class="nav nav-tabs hidden-phone">
+				{tabHeaders}
+			</ul>
+			{tabElms}
+		</div>
+
+	);
 }

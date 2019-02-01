@@ -1,34 +1,25 @@
 import { h, Component, ComponentProps } from "preact";
-export interface MobileTabProps extends ComponentProps<any> {
+export interface Props {
 	title: string;
-	parentId: number;
+	parentId: string;
 	isActive: boolean;
+	children?: JSX.Element[];
 }
 interface MobileTabState {
 }
-export class MobileTab extends Component<MobileTabProps, MobileTabState> {
-	constructor(props) {
-		super(props);
-		this.state = {};
-	}
-	componentDidMount() {
-		setTimeout(() => {
-		}, 2000);
-	}
-	render({title, parentId, isActive, children}: MobileTabProps, state: MobileTabState) {
-		const id = title.replace(/\W+/, '');
-		return (
-			<div>
+export default function MobileTab({ title, parentId, isActive, children }: Props) {
+	const id = title.replace(/\W+/, '');
+	return (
+		<div class="tab-content">
 			<div class="med-nav-pane-collapse visible-phone">
 				<a class="collapsed chevron-collapse" data-toggle="collapse" href={`#nav-${id}`} data-parent={`#nav-${parentId}`}>
 					{title}
-					<i class="glyphicon glyphicon-chevron-right">
-					</i>
+					<i class="glyphicon glyphicon-chevron-right"></i>
 				</a>
 			</div>
 			<div id={`nav-${id}`} class={`tab-pane collapse ${isActive ? 'active' : ''}`}>
+				section
 			</div>
-			</div>
-		);
-	}
+		</div>
+	);
 }

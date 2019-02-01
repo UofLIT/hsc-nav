@@ -1,22 +1,13 @@
-import { h, Component, ComponentProps } from "preact";
-export interface MainNavProps extends ComponentProps<any> {
+import { h, Component } from "preact";
+
+export interface Props {
+	children?: JSX.Element[]
 }
-interface MainNavState {
-}
-export default class MainNav extends Component<MainNavProps, MainNavState> {
-	constructor(props) {
-		super(props);
-		this.state = {};
-	}
-	componentDidMount() {
-		setTimeout(() => {
-		}, 2000);
-	}
-	render(props: MainNavProps, state: MainNavState) {
-		return (
-			<ul id="masthead-nav" class="nav">
-				{props.children}
-			</ul>
-		);
-	}
+
+export default function MainNav({ children }: Props) {
+	return (
+		<ul id="masthead-nav" class="nav">
+			{children}
+		</ul>
+	);
 }
